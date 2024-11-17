@@ -20,7 +20,7 @@ export const Select = ({
   ...props
 }: ISelect) => {
   return (
-    <Label name={name} title={title} errors={errors}>
+    <Label name={name} title={title}>
       <select
         className={styles.select}
         id={name}
