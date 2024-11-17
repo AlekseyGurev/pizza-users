@@ -1,0 +1,15 @@
+.containerCards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 33px 16px;
+  list-style: none;
+
+  @media (min-width: $md) {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
