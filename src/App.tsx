@@ -10,15 +10,15 @@ import { useAppDispatch } from '@/redux/hooks';
 const router = createBrowserRouter(
   [
     {
-      path: '/',
+      path: '/pizza-users/',
       element: <Users />,
     },
     {
-      path: '/users/:id',
+      path: '/pizza-users/users/:id',
       element: <EditPage />,
     },
     {
-      path: '/new',
+      path: '/pizza-users/new',
       element: <EditPage />,
     },
     {

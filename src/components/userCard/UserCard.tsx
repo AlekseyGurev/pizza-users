@@ -5,7 +5,7 @@ import { IUsers } from '@/models';
 export const UserCard = ({ user }: { user: IUsers; page?: number }) => {
   return (
     <li className={styles.container}>
-      <Link className={styles.link} to={`/users/${user.id}`}>
+      <Link className={styles.link} to={`/pizza-users/users/${user.id}`}>
         <img
           className={styles.image}
           src={user.avatar}

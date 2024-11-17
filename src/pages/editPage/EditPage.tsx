@@ -47,14 +47,14 @@ export const EditPage = () => {
   });
 
   useEffect(() => {
-    if (location.pathname === '/new') {
+    if (location.pathname === '/pizza-users/new') {
       reset(defaultForm);
       phone.current = '';
     }
     if (!id) return;
     setUser(users.find((user: IUsers) => user.id === Number(id)));
     if (!user) {
-      navigate('/');
+      navigate('/pizza-users/');
       return;
     }
     reset(user);

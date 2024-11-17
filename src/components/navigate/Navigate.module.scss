@@ -9,10 +9,11 @@
 .buttonIcon {
   width: 18px;
   height: 18px;
-
+  padding: 10px 10px;
   background-color: transparent;
-  border: none;
+  border: 1px solid $color-white;
   background-repeat: no-repeat;
+  background-position: center;
   cursor: pointer;
 
   @media (min-width: $md) {
